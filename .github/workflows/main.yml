@@ -13,6 +13,9 @@ jobs:
       run: echo Hello, world!
 
     - name: 디렉토리 출력
-      run: ls -al
+      run: ls -al    
+    
+    - name: 파일 찾기
+      run: find / -name 'test.py'
 
 
